@@ -1,6 +1,5 @@
 # 8Puzzle
 ## Solving 8-Puzzle with heuristic algorithm 
-
-* What is 8-Puzzle ?
+### 8-puzzle
 
 *Thanks for your attention.*
