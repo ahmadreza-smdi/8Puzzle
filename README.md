@@ -25,7 +25,7 @@ A greedy algorithm is any algorithm that follows the problem-solving heuristic o
 
 What things you need to install the software and how to install them
 
-###Python
+the project is based on python, first step is installing python
 
 #### Ubuntu
 ```
@@ -46,7 +46,19 @@ sudo dnf install python36
 packman -S python
 ```
 
-### Prerequisites
+## Running the project
+All the files of the project is combined and all the modules are set to one file, so to run the 
+project you just need to run.py file
+```
+python3 run.py
+```
 
+## Built With
+
+* [Python](https://www.python.org/) - Programming language
+
+## Authors
+
+* **Ahmadreza Samadi** - *Programmer* - [Ahmadreza samadi](https://github.com/ahmadreza-smdi)
 
 *Thanks for your attention.*
