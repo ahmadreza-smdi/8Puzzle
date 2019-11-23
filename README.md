@@ -8,7 +8,7 @@ A* is an informed search algorithm, or a best-first search, meaning that it is f
 
 At each iteration of its main loop, A* needs to determine which of its paths to extend. It does so based on the cost of the path and an estimate of the cost required to extend the path all the way to the goal. Specifically, A* selects the path that minimizes  f(n)=g(n)+h(n) 
 
-### bfs
+#### bfs
 There are many ways to traverse graphs. BFS is the most commonly used approach.
 BFS is a traversing algorithm where you should start traversing from a selected node (source or starting node) and traverse the graph layerwise thus exploring the neighbour nodes (nodes which are directly connected to source node). You must then move towards the next-level neighbour nodes.
 As the name BFS suggests, you are required to traverse the graph breadthwise as follows:
@@ -17,15 +17,36 @@ As the name BFS suggests, you are required to traverse the graph breadthwise as 
 
 2 - Move to the next layer
 
-### Gready
+#### Gready
 A greedy algorithm is any algorithm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the intent of finding a global optimum. In many problems, a greedy strategy does not usually produce an optimal solution, but nonetheless a greedy heuristic may yield locally optimal solutions that approximate a globally optimal solution in a reasonable amount of time
 
 
-### Prerequisites
+## Prerequisites
 
 What things you need to install the software and how to install them
 
+###Python
+
+#### Ubuntu
 ```
-Python
+sudo apt-get update
+sudo apt-get install python3.6
 ```
+#### CentOS
+```
+sudo yum update
+sudo yum install yum-utils
+```
+#### Fedora
+```
+sudo dnf install python36
+```
+#### Arch linux
+```
+packman -S python
+```
+
+### Prerequisites
+
+
 *Thanks for your attention.*
